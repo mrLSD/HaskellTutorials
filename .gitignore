@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 dist/
+=======
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virtualenv
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+>>>>>>> 01ea2760fdd7fef50b9d8b69dd5d7780ec7931f4
