@@ -38,3 +38,12 @@ type NewType2 = ExModule1Data
 
 -- Определяем тип через алиас имени модуля
 type NewType3 = EC.TheTest
+
+coeffTest :: Float
+coeffTest = 1.2
+
+fnCheckCoeff1 :: Float
+fnCheckCoeff1 = coeffTest * Chapter5.ExModule1.valueCoefEx
+
+fnCheckCoeff2 :: Float
+fnCheckCoeff2 = coeffTest * valueCoefEx

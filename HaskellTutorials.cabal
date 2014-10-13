@@ -7,16 +7,13 @@ license:             MIT
 license-file:        LICENSE
 author:              Evgeny Ukganov
 maintainer:          mrlsd@ya.ru
--- copyright:
+copyright:           Evgeny Ukhanov (c) 2014
 category:            Tutorials
 build-type:          Simple
--- extra-source-files:
 cabal-version:       >=1.10
 
 executable HaskellTutorials
   main-is:             Main.hs
-  -- other-modules:       
-  -- other-extensions:
   build-depends:       
                 base                    >=4.6 && <4.7, 
                 text, 

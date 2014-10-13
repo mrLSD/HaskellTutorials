@@ -1,4 +1,4 @@
-module Chapter5.ExModule1
+module ExModule1
 ( ExModule1Data
 , valueCoefEx
 ) where
